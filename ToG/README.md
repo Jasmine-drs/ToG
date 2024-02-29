@@ -1,7 +1,6 @@
 # ToG
 
-Upon successfully installing all the necessary configurations, you can proceed to execute ToG directly by employing the following command:
-
+成功安装所有必要的配置后，可以使用以下命令直接执行ToG：
 ```sh
 python main_freebase.py \  # if you wanna use Wikidata as KG source, run main_wiki.py
 --dataset cwq \ # dataset your wanna test, see ToG/data/README.md
@@ -17,6 +16,5 @@ python main_freebase.py \  # if you wanna use Wikidata as KG source, run main_wi
 --prune_tools llm \ # prune tools for ToG, can be llm (same as LLM_type), bm25 or sentencebert.
 ```
 
-All the pruning and reasoning prompts utilized in the experiment are in the `prompt_list.py` file.
-
-For eval, please see `eval/README.md` file.
+实验中使用的所有修剪和推理提示都在“prompt_list.py”文件中。
+有关eval，请参阅`eval/README.md`文件。

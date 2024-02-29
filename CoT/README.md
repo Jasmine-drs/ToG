@@ -1,8 +1,7 @@
 # CoT
 
-In this folder are the experiments that correspond to the CoT and IO prompt in the main experiment table.
-
-Make sure you have installed all the requirements:
+此文件夹中是与主实验表中的CoT(链式推理)和IO提示相对应的实验。
+确保已安装所有要求：
 ```sh
 tqdm
 openai
